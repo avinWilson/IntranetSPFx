@@ -1,0 +1,79 @@
+<div class="fnl_up_st_pg mb_40">
+  <div class="prvw_image_wrapper">
+    <div id="Uploaddiv">
+      <p class="d-flex">Choose the file to upload</p>
+      <div class="upld_wrapper">
+        <input type="file" id="uploadImage" onchange="ShowImageStep()" />
+        <label for="uploadImage" class="uploadeImaleLb">upload</label>
+      </div>
+    </div>
+    <div id="UploadedImagediv" style="display: none">
+      <img class="prvw_image" src="" id="txtimage" />
+      <a class="op_0 ml-auto" onclick="DeleteAwardImageBAL()">
+        <img
+          class="max_15"
+          src="StyleLibraryURL/Common/Icons/rubbish-bin-org.svg"
+          alt=""
+        />
+      </a>
+    </div>
+  </div>
+  <div class="prvw_text_edit_wrp">
+    <div class="half_width_wrapper">
+      <div class="mb_30" style="display: none">
+        <p class="text_13">Title</p>
+        <input
+          class="gry_input"
+          type="text"
+          id="txtTitle"
+          maxlength="200"
+          value="New Award"
+        />
+      </div>
+      <div class="mb_30">
+        <p class="text_13">Employee Name</p>
+        <input class="gry_input" type="text" id="txtUsername" maxlength="200" />
+      </div>
+      <div class="mb_30">
+        <p class="text_13">Email</p>
+        <input class="gry_input" type="text" id="txtEmail" maxlength="75" />
+      </div>
+      <div class="mb_30">
+        <p class="text_13">Description</p>
+        <textarea
+          class="gry_input"
+          style="width: 321px"
+          id="txtdes"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </div>
+    </div>
+    <div class="half_width_wrapper">
+      <div class="mb_30">
+        <p class="text_13">Department</p>
+        <input class="gry_input" type="text" id="txtDepart" maxlength="200" />
+      </div>
+      <div class="mb_30">
+        <p class="text_13">Award Date</p>
+        <input class="gry_input" id="Date" type="text" readonly="true" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="btn_grp_wrapper">
+  <input
+    type="button"
+    id="btnSave"
+    value="Save"
+    class="btn btn_clr_1 clsbtnQuiz"
+    onclick="SubmitRequest()"
+  />
+  <input
+    type="button"
+    value="Cancel"
+    onclick="CancelAward()"
+    class="btn btn_clr_1 clsbtnQuiz"
+  />
+</div>

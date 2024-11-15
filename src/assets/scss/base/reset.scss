@@ -1,0 +1,234 @@
+/* Global Styles */
+body {
+  font-family: 'Gotham', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: 350;
+
+  * {
+    font-family: inherit; /* Inherits font family */
+    font-weight: inherit; /* Inherits font weight */
+  }
+}
+
+audio,
+canvas,
+progress,
+video {
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: #c5941b !important;
+  }
+
+  &:active,
+  &:hover {
+    outline: 0;
+  }
+}
+
+/* Text Elements */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 0;
+
+  &:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Superscript and Subscript */
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+
+  sup {
+    top: -0.5em;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
+}
+
+/* Image Styles */
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Figure Styles */
+figure {
+  margin: 1em 40px;
+}
+
+/* Horizontal Rule */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* Headings and Common Elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Preformatted Text */
+pre {
+  overflow: auto;
+}
+
+/* Form Elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+/* Container Styles */
+.main_container img {
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+button {
+  overflow: visible;
+
+  &:hover {
+    border-color: inherit;
+    background-color: inherit;
+  }
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+
+  /* Input Styles */
+  &[type='checkbox'],
+  &[type='radio'] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  &[type='number']::-webkit-inner-spin-button,
+  &[type='number']::-webkit-outer-spin-button {
+    height: auto;
+    appearance: none;
+    margin: 0;
+  }
+
+  &[type='search'] {
+    appearance: textfield;
+    box-sizing: content-box;
+
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-decoration {
+      appearance: none;
+    }
+  }
+}
+
+/* Fieldset and Legend */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+
+  legend {
+    border: 0;
+    padding: 0;
+  }
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}

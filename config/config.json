@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/banner/BannerWebPart.js",
+          "manifest": "./src/webparts/banner/BannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "corporate-awards-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/corporateAwards/CorporateAwardsWebPart.js",
+          "manifest": "./src/webparts/corporateAwards/CorporateAwardsWebPart.manifest.json"
+        }
+      ]
+    },
+    "corporate-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/corporateNews/CorporateNewsWebPart.js",
+          "manifest": "./src/webparts/corporateNews/CorporateNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-3.7.1.min.js"
+  },
+  "localizedResources": {
+    "BannerWebPartStrings": "lib/webparts/banner/loc/{locale}.js",
+    "CorporateAwardsWebPartStrings": "lib/webparts/corporateAwards/loc/{locale}.js",
+    "CorporateNewsWebPartStrings": "lib/webparts/corporateNews/loc/{locale}.js"
+  }
+}

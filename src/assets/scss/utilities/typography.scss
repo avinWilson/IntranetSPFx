@@ -1,0 +1,160 @@
+// Font Size Utilities
+.new-fs-xxl {
+  font-family: 'Gotham';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36.4px;
+}
+
+.new-fs-xl {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.2px;
+}
+
+.new-fs-lg {
+  font-family: 'GothamBook';
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.new-fs-md {
+  font-family: 'GothamBook';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+}
+
+.new-fs-sm {
+  font-family: 'GothamBook';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.9px;
+}
+
+.new-link {
+  font-family: 'GothamBook';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.9px;
+  color: #0d6efd;
+}
+
+// Font Family Utilities
+.font-gotham {
+  font-family: 'Gotham';
+}
+
+.font-gotham-book {
+  font-family: 'GothamBook';
+}
+
+// Font Color Utilities
+.text-primary {
+  color: #1a1a1a !important;
+}
+
+.text-secondary {
+  color: #525967 !important;
+}
+
+.text-yellow {
+  color: #b38b1c !important;
+}
+
+.text-org {
+  color: #f7941d !important;
+}
+
+.text-green {
+  color: #3d8232 !important;
+}
+
+.text-red {
+  color: #b42716 !important;
+}
+
+.text-gold {
+  color: #bd8b13 !important;
+}
+
+.text-dark {
+  color: #0c0d10 !important;
+}
+
+.text-light {
+  color: #f8f9fb !important;
+}
+
+.color-link {
+  color: #03787c !important;
+}
+
+// Font Weight Utilities
+.fw-100 {
+  font-weight: 100 !important;
+}
+
+.fw-200 {
+  font-weight: 200 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+// Line Height Utilities
+.lh-36 {
+  line-height: 36.4px !important;
+}
+
+.lh-31 {
+  line-height: 31.2px !important;
+}
+
+.lh-23 {
+  line-height: 23.4px !important;
+}
+
+.lh-18 {
+  line-height: 18.2px !important;
+}
+
+.lh-16 {
+  line-height: 16.9px !important;
+}
+
+// Responsive Font Size Utilities
+@media (max-width: 768px) {
+  .new-fs-lg {
+    font-size: 16px; // Adjust for smaller screens
+    line-height: 22px;
+  }
+
+  .new-fs-md {
+    font-size: 12px; // Adjust for smaller screens
+    line-height: 16px;
+  }
+
+  .new-fs-sm {
+    font-size: 11px; // Adjust for smaller screens
+    line-height: 14px;
+  }
+}

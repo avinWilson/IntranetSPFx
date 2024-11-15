@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "intranet-spfx-client-side-solution",
+    "id": "d9fd90d4-4a5e-4695-b671-cf45c1d78115",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "intranet-spfx description"
+      },
+      "longDescription": {
+        "default": "intranet-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "intranet-spfx Feature",
+        "description": "The feature that activates elements of the intranet-spfx solution.",
+        "id": "17ffe970-42c5-4bb4-9d75-e895251a5e0d",
+        "version": "1.0.0.0"
+      }
+    ],
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "SharePoint",
+        "scope": "Site.Read.All"
+      },
+      {
+        "resource": "SharePoint",
+        "scope": "Web.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/intranet-spfx.sppkg"
+  }
+}

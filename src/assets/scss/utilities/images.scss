@@ -1,0 +1,90 @@
+// Fluid image that scales to fit the parent container
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+// Full-width image for responsive layouts
+.img-full {
+  width: 100%;
+  height: auto;
+}
+
+// Fixed aspect ratio (1:1) for square images
+.img-square {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// Round image (useful for avatars, profile pics)
+.img-round {
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+}
+
+// Rounded corners for images
+.img-rounded {
+  border-radius: 0.25rem; // Can adjust this value
+}
+
+// Align images to the center
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Image with border
+.img-bordered {
+  border: 1px solid #ddd; // Adjust border color
+  padding: 5px; // Optional padding
+  border-radius: 0.25rem; // Optional rounded corners
+}
+
+// Image with shadow for visual emphasis
+.img-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+// Utility classes for image alignment within flexbox or grid layouts
+.img-align {
+  &-left {
+    float: left;
+    margin-right: 1rem;
+  }
+
+  &-right {
+    float: right;
+    margin-left: 1rem;
+  }
+
+  &-top {
+    vertical-align: top;
+  }
+
+  &-middle {
+    vertical-align: middle;
+  }
+
+  &-bottom {
+    vertical-align: bottom;
+  }
+}
+
+// Image inside a container to maintain a fixed aspect ratio (e.g., 16:9)
+.img-aspect {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; // 16:9 aspect ratio (adjust as needed)
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

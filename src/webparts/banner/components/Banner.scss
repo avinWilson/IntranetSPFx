@@ -1,0 +1,36 @@
+.mediaGallery .owl-nav {
+  margin-top: -10px;
+  position: absolute;
+  bottom: 60px;
+  right: 15px;
+
+  button {
+    width: 22px;
+    height: 22px;
+    max-width: 22px;
+    min-width: 22px;
+    border-radius: 11px;
+    border: transparent;
+    margin: 2px 5px;
+    display: inline-block;
+
+    &.owl-prev,
+    &.owl-prev:hover {
+      background: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' viewBox='0 0 508.82 508.82' style='enable-background:new 0 0 508.82 508.82;' xml:space='preserve' width='512px' height='512px'%3E%3Cg transform='matrix(-1, 1.22465e-16, -1.22465e-16, -1, 508.82, 508.82)'%3E%3Cg%3E%3Cg%3E%3Cpath d='M254.41,508.82C114.378,508.82,0,394.442,0,254.41S114.378,0,254.41,0 s254.41,114.378,254.41,254.41S394.442,508.82,254.41,508.82z M254.41,31C131.481,31,32.069,130.412,32.069,253.341 s99.412,222.342,222.342,222.342s222.341-99.412,222.341-222.342S377.339,31,254.41,31z' data-original='%23231F20' class='active-path' data-old_color='%23f7941d' fill='%23f7941d'/%3E%3Cpath d='M206.307,365.581c-4.276,0-8.552-1.069-11.758-4.276c-6.414-6.414-6.414-16.034,0-22.448 l84.447-84.447l-84.447-84.447c-6.414-6.414-6.414-16.034,0-22.448c6.414-6.414,16.034-6.414,22.448,0l95.137,95.137 c3.207,3.207,4.276,7.483,4.276,11.758c0,4.276-2.138,8.552-4.276,11.758l-94.068,94.068 C214.859,363.443,210.583,365.581,206.307,365.581z' data-original='%23231F20' class='active-path' data-old_color='%23f7941d' fill='%23f7941d'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+      // background: url('../../../assets/images/pictures/arrow-circle-icon-lt-org.png');
+      background-position: center;
+      background-size: 22px;
+      background-repeat: no-repeat;
+      color: unset;
+    }
+
+    &.owl-next,
+    &.owl-next:hover {
+      background: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' viewBox='0 0 508.82 508.82' style='enable-background:new 0 0 508.82 508.82;' xml:space='preserve' width='512px' height='512px'%3E%3Cg%3E%3Cg%3E%3Cpath d='M254.41,508.82C114.378,508.82,0,394.442,0,254.41S114.378,0,254.41,0 s254.41,114.378,254.41,254.41S394.442,508.82,254.41,508.82z M254.41,31C131.481,31,32.069,130.412,32.069,253.341 s99.412,222.342,222.342,222.342s222.341-99.412,222.341-222.342S377.339,31,254.41,31z' fill='%23f7941d'/%3E%3Cpath d='M206.307,365.581c-4.276,0-8.552-1.069-11.758-4.276c-6.414-6.414-6.414-16.034,0-22.448 l84.447-84.447l-84.447-84.447c-6.414-6.414-6.414-16.034,0-22.448c6.414-6.414,16.034-6.414,22.448,0l95.137,95.137 c3.207,3.207,4.276,7.483,4.276,11.758c0,4.276-2.138,8.552-4.276,11.758l-94.068,94.068 C214.859,363.443,210.583,365.581,206.307,365.581z' fill='%23f7941d'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+      background-position: center;
+      background-size: 22px;
+      background-repeat: no-repeat;
+      color: unset;
+    }
+  }
+}

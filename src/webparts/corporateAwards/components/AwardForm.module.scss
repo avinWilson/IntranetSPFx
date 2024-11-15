@@ -1,0 +1,17 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.awardFormContainer {
+  .previewImageWrapper {
+    margin-right: 15px;
+  }
+
+  .previewTextFieldWrap {
+    width: 100%;
+
+    .inputWrapper {
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

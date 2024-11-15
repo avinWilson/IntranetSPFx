@@ -1,0 +1,176 @@
+.d-none {
+  display: none;
+}
+
+.d-inline-flex {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.flex-row {
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.justify-content {
+  &-end {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  &-start {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  &-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  &-around {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  &-between {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+.align-items {
+  &-start {
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  &-center {
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  &-end {
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  &-stretch {
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  &-baseline {
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+
+.flex-grow {
+  &-0 {
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+
+  &-1 {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+}
+
+.flex-shrink {
+  &-0 {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+
+  &-1 {
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+  }
+}
+
+.flex-basis {
+  &-auto {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+
+  &-0 {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+  }
+}
+
+.align-self {
+  &-auto {
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+
+  &-start {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  &-center {
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  &-end {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+  }
+
+  &-stretch {
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+  }
+
+  &-baseline {
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
+  }
+}
+
+.align-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+// fit element based on the available space
+.flex-fit {
+  min-width: 0;
+  flex: 1 1 0%;
+}

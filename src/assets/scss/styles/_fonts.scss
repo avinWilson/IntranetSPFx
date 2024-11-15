@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/Gotham-Bold.eot'),
+    url('../../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Gotham-Bold.woff2') format('woff2'),
+    url('../../fonts/Gotham-Bold.woff') format('woff'),
+    url('../../fonts/Gotham-Bold.ttf') format('truetype'),
+    url('../../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url('../../fonts/GothamRounded-Light.eot'),
+    url('../../fonts/GothamRounded-Bold.eot');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url('../../fonts/Gotham-Book.eot'),
+    url('../../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Gotham-Book.woff2') format('woff2'),
+    url('../../fonts/Gotham-Book.woff') format('woff'),
+    url('../../fonts/Gotham-Book.ttf') format('truetype'),
+    url('../../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: 400;
+}

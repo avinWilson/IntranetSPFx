@@ -1,0 +1,54 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+@import '../../../assets/scss/styles/fonts';
+
+.jqte-test {
+  display: block;
+  margin: 0 0 10px;
+  padding: 6px;
+  width: 95%;
+  background: #fff;
+  border: #aaa 1px solid;
+  font-size: 13px;
+}
+
+textarea.jqte-test,
+div.jqte-test,
+span.jqte-test {
+  min-height: 100px;
+}
+
+button {
+  display: block;
+  margin: 20px 0;
+  padding: 6px 0 4px;
+  width: 154px;
+  background: #658700;
+  border: #526e00 1px solid;
+  color: #f3ffcf !important;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 0 2px #000, inset 0 1px 1px #99cc00;
+  -webkit-box-shadow: 0 0 2px #000, inset 0 1px 1px #99cc00;
+  -moz-box-shadow: 0 0 2px #000, inset 0 1px 1px #99cc00;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #78a000;
+  border-color: #658700;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+button:active {
+  background: #3f5500;
+  border-color: #2c3c00;
+  color: #9ccd00 !important;
+  box-shadow: 0 0 3px #000, inset 0 -2px 2px #333;
+  -webkit-box-shadow: 0 0 3px #000, inset 0 -2px 2px #333;
+  -moz-box-shadow: 0 0 3px #000, inset 0 -2px 2px #333;
+}
